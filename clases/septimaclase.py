@@ -32,11 +32,11 @@ for i in range (sizelist):
     print (f"nombre: {listanombres [i]} edad: {listaedades [i]}")
 
 Listahobbies = []
-decision = 0
-while (decision ==0):
+decision = "si"
+while (decision == "si"):
     hobbie =input("cual es tu hobbie favorito? : ")
     Listahobbies.append(hobbie)
-    decision= input("""ingrese:
+    decision= input("""ingrese :
             si- para seguir agregando hobbies
             no- para finalizar
     : """)
